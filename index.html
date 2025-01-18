@@ -3,223 +3,216 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>My Resume</title>
-    <style>
-     body {
-        margin: 0;
-        background-color: black;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      height: 100%;
-       
-      }
-
-      header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
-      }
-
-      ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-    </style>
   </head>
   <body>
     <header>
-      <h1>N&apos;DJA Hugues Blanchard</h1>
-      <img
-        src="./assets/images/Me.jpg"
-        height="150"
-        alt="Blanchard's resume photo"
-      />
-      <h2>Summary</h2>
-      <p>
-        Data Project Manager and Digital Transformation Expert with over 15
-        years of experience in managing strategic projects and leveraging data
-        technologies to drive value creation. My goal is to deliver robust
-        expertise in data science, database management, and digital innovation
-        to support organizations in optimizing their data governance and
-        implementing innovative solutions.
-      </p>
+      <div class="my-info">
+        <img
+          src="./assets/images/Me.jpg"
+          height="150"
+          alt="Blanchard's resume photo"
+        />
+
+        <h1>N&apos;DJA Hugues Blanchard</h1>
+      </div>
+      <div class="my-summary">
+        <h2>Summary</h2>
+        <p>
+          Data Project Manager and Digital Transformation Expert with over 15
+          years of experience in managing strategic projects and leveraging data
+          technologies to drive value creation. My goal is to deliver robust
+          expertise in data science, database management, and digital innovation
+          to support organizations in optimizing their data governance and
+          implementing innovative solutions.
+        </p>
+      </div>
     </header>
     <hr />
-    <h2>Work Experience</h2>
 
-    <ul>
-      <li>
-        <h3>Senior DBA and Project Manager - NOVATEC Consulting SA</h3>
-        <p>May 2023 - Present</p>
-        <ul>
-          <li>
-            Led the migration of Oracle 12c databases to Oracle 19c, ensuring
-            seamless operational continuity.
-          </li>
-          <li>
-            Implemented high availability solutions (Data Guard, Oracle RAC) to
-            enhance infrastructure resilience.
-          </li>
-          <li>
-            Optimized the performance of critical databases and proactively
-            managed major incidents.
-          </li>
-          <li>
-            Coordinated teams for IT infrastructure transformation projects,
-            including cloud migrations and the integration of analytics
-            solutions.
-          </li>
-        </ul>
-      </li>
-      <li>
-        <h3>Senior Oracle DBA Consultant - GS2E (on behalf of HolyTech)</h3>
-        <p>January 2024 - August 2024</p>
-        <ul>
-          <li>Installed and configured Oracle software on servers.</li>
-          <li>
-            Collaborated with development teams and integrators to design and
-            update database schemas.
-          </li>
-          <li>
-            Created and managed user accounts and roles with appropriate
-            permissions.
-          </li>
-          <li>
-            Monitored suspicious activities and investigated potential security
-            breaches.
-          </li>
-          <li>
-            Planned and executed full, differential, and incremental backups to
-            ensure data availability.
-          </li>
-          <li>
-            Implemented recovery strategies to restore data in case of loss or
-            system failure.
-          </li>
-        </ul>
-      </li>
-      <li>
-        <h3>Information Systems Architect - Orange Côte d'Ivoire</h3>
-        <p>December 2021 - January 2023</p>
-        <ul>
-          <li>
-            Designed technical and functional architectures for large-scale
-            projects.
-          </li>
-          <li>
-            Conducted risk analysis, defined technical solutions, and managed IT
-            project budgets.
-          </li>
-          <li>
-            Collaborated closely with business teams to understand their needs
-            and propose tailored technical and functional architectures.
-          </li>
-        </ul>
-      </li>
-      <li>
-        <h3>Production Deployment Engineer - ASCENS SERVICES - BOLLORE</h3>
-        <p>December 2019 - November 2021</p>
-        <ul>
-          <li>
-            Deployed SQL Server solutions, including configuration and
-            maintenance.
-          </li>
-          <li>
-            Administered and optimized SQL Server databases for subsidiaries.
-          </li>
-          <li>
-            Managed backups and restorations while implementing maintenance
-            plans.
-          </li>
-        </ul>
-      </li>
-      <li>
-        <h3>Database Engineer - Groupement Orange Services (GOS)</h3>
-        <p>September 2015 - December 2019</p>
-        <ul>
-          <li>
-            Managed over 30 databases (Oracle, PostgreSQL, MySQL) with a focus
-            on security and high availability.
-          </li>
-          <li>
-            Performed tuning and optimization to enhance the performance of
-            critical applications.
-          </li>
-          <li>
-            Oversaw backups and restorations to ensure data integrity and
-            availability.
-          </li>
-        </ul>
-      </li>
-      <li>
-        <h3>Software Project Manager - AS Consulting</h3>
-        <p>May 2014 - February 2015</p>
-        <ul>
-          <li>
-            Coordinated software development projects, including the design of
-            custom databases.
-          </li>
-          <li>Conducted user training on implemented solutions.</li>
-        </ul>
-      </li>
-      <li>
-        <h3>IT Support Manager (West Africa) | ICAP TECHNOLOGIES</h3>
-        <p>May 2012 - December 2013</p>
-        <ul>
-          <li>
-            Deployed Oracle Financial Crime and Compliance Management software
-            for national financial units across West Africa (Gambia, Benin, Côte
-            d&apos;Ivoire, Burkina Faso).
-          </li>
-          <li>
-            Installed and configured Oracle 11gR2 and RedHat Linux, while
-            providing user training.
-          </li>
-        </ul>
-      </li>
-      <li>
-        <h3>Junior Project Manager & Developer - AS Consulting</h3>
-        <p>October 2007 - February 2011</p>
-        <ul>
-          <li>
-            Developed and deployed solutions for enterprise clients, with a
-            focus on client training.
-          </li>
-          <li>
-            Managed project schedules and coordinated cross-functional teams to
-            deliver solutions on time and within budget.
-          </li>
-          <li>
-            Conducted detailed client needs analysis to ensure tailored
-            solutions.
-          </li>
-        </ul>
-      </li>
-    </ul>
+    <h2>Work Experience</h2>
+    <main>
+      <div class="experience">
+        <section class="date">May 2023 - Present</section>
+        <section class="details">
+          <h2>Senior DBA and Project Manager - NOVATEC Consulting SA</h2>
+          <ul>
+            <li>
+              Led the migration of Oracle 12c databases to Oracle 19c, ensuring
+              seamless operational continuity.
+            </li>
+            <li>
+              Implemented high availability solutions (Data Guard, Oracle RAC)
+              to enhance infrastructure resilience.
+            </li>
+            <li>
+              Optimized the performance of critical databases and proactively
+              managed major incidents.
+            </li>
+            <li>
+              Coordinated teams for IT infrastructure transformation projects,
+              including cloud migrations and the integration of analytics
+              solutions.
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="experience">
+        <section class="date">January 2024 - August 2024</section>
+        <section class="details">
+          <h2>Senior Oracle DBA Consultant - GS2E (on behalf of HolyTech)</h2>
+          <ul>
+            <li>Installed and configured Oracle software on servers.</li>
+            <li>
+              Collaborated with development teams and integrators to design and
+              update database schemas.
+            </li>
+            <li>
+              Created and managed user accounts and roles with appropriate
+              permissions.
+            </li>
+            <li>
+              Monitored suspicious activities and investigated potential
+              security breaches.
+            </li>
+            <li>
+              Planned and executed full, differential, and incremental backups
+              to ensure data availability.
+            </li>
+            <li>
+              Implemented recovery strategies to restore data in case of loss or
+              system failure.
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="experience">
+        <section class="date">December 2021 - January 2023</section>
+        <section class="details">
+          <h2>Information Systems Architect - Orange Côte d'Ivoire</h2>
+          <ul>
+            <li>
+              Designed technical and functional architectures for large-scale
+              projects.
+            </li>
+            <li>
+              Conducted risk analysis, defined technical solutions, and managed
+              IT project budgets.
+            </li>
+            <li>
+              Collaborated closely with business teams to understand their needs
+              and propose tailored technical and functional architectures.
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="experience">
+        <section class="date">December 2019 - November 2021</section>
+        <section class="details">
+          <h2>Production Deployment Engineer - ASCENS SERVICES - BOLLORE</h2>
+          <ul>
+            <li>
+              Deployed SQL Server solutions, including configuration and
+              maintenance.
+            </li>
+            <li>
+              Administered and optimized SQL Server databases for subsidiaries.
+            </li>
+            <li>
+              Managed backups and restorations while implementing maintenance
+              plans.
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="experience">
+        <section class="date">May 2014 - February 2015</section>
+        <section class="details">
+          <h2>Software Project Manager - AS Consulting</h2>
+          <ul>
+            <li>
+              Coordinated software development projects, including the design of
+              custom databases.
+            </li>
+            <li>Conducted user training on implemented solutions.</li>
+          </ul>
+        </section>
+      </div>
+      <div class="experience">
+        <section class="date">May 2012 - December 2013</section>
+        <section class="details">
+          <h2>IT Support Manager (West Africa) | ICAP TECHNOLOGIES</h2>
+          <ul>
+            <li>
+              Deployed Oracle Financial Crime and Compliance Management software
+              for national financial units across West Africa (Gambia, Benin,
+              Côte d&apos;Ivoire, Burkina Faso).
+            </li>
+            <li>
+              Installed and configured Oracle 11gR2 and RedHat Linux, while
+              providing user training.
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="experience">
+        <section class="date">October 2007 - February 2011</section>
+        <section class="details">
+          <h2>Junior Project Manager & Developer - AS Consulting</h2>
+          <ul>
+            <li>
+              Developed and deployed solutions for enterprise clients, with a
+              focus on client training.
+            </li>
+            <li>
+              Managed project schedules and coordinated cross-functional teams
+              to deliver solutions on time and within budget.
+            </li>
+            <li>
+              Conducted detailed client needs analysis to ensure tailored
+              solutions.
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      
+        <section class="skill-set">
+          <h2>Skill set:</h2>
+          <ul>
+            <li>Programming languages: Python, C/C++, Java</li>
+            <li>Data analysis tools: Power BI, Excel</li>
+            <li>Data Manipulation: Pandas, NumPy</li>
+            <li>
+              Machine Learning Frameworks: Scikit-learn, TensorFlow, PyTorch
+            </li>
+            <li>Data Visualization: Matplotlib, Seaborn, Power BI</li>
+            <li>Databases: SQL, PostgreSQL, Oracle</li>
+          </ul>
+        </section>
+        <section class="key-skills">
+          <h2>Key Skills:</h2>
+          <ul>
+            <li>Database administration (Oracle, PostgreSQL)</li>
+            <li>Data visualization expertise (Power BI)</li>
+            <li>Data Manipulation: Pandas, NumPy</li>
+            <li>SQL database management</li>
+            <li>Python programming</li>
+            <li>Machine Learning model implementation and deployment</li>
+          </ul>
+        </section>
+     
+    </main>
+
     <hr />
-    <h2>Skill set:</h2>
-    <ul>
-      <li>Programming languages: Python, C/C++, Java</li>
-      <li>Data analysis tools: Power BI, Excel</li>
-      <li>Data Manipulation: Pandas, NumPy</li>
-      <li>Machine Learning Frameworks: Scikit-learn, TensorFlow, PyTorch</li>
-      <li>Data Visualization: Matplotlib, Seaborn, Power BI</li>
-      <li>Databases: SQL, PostgreSQL, Oracle</li>
-    </ul>
-    <h2>Key Skills:</h2>
-    <ul>
-      <li>Database administration (Oracle, PostgreSQL)</li>
-      <li>Data visualization expertise (Power BI)</li>
-      <li>Data Manipulation: Pandas, NumPy</li>
-      <li>SQL database management</li>
-      <li>Python programming</li>
-      <li>Machine Learning model implementation and deployment</li>
-    </ul>
+
     <hr />
     <h2>Certifications:</h2>
     <ul>

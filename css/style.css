@@ -1,0 +1,106 @@
+* {
+  font-family: "Montserrat", serif;
+  font-size: 1em;
+}
+body {
+  margin: 0;
+  padding: 20px 0px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+/* ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+header .my-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .my-info h1 {
+  margin-left: 20px;
+}
+
+header .my-summary {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header .my-summary p {
+  text-align: justify;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.experience {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.experience .date {
+  width: 35%;
+}
+.experience .details {
+  width: 65%;
+  justify-content: center;
+}
+
+.details ul,
+.skill-set ul,
+.key-skills ul {
+  list-style: none;
+
+  padding: 0;
+}
+
+.details ul li,
+.skill-set ul li,
+.key-skills ul li {
+  margin-bottom: 0.5em;
+  text-align: justify;
+  font-size: 0.8em;
+}
+
+.skill-set,
+.key-skills {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.skill-set ul li,
+.key-skills ul li {
+  text-align: center;
+}
